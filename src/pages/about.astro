@@ -1,0 +1,17 @@
+---
+import AboutHeroImage from '../assets/blog-placeholder-about.jpg';
+import Layout from '../layouts/BlogPost.astro';
+---
+
+<Layout
+	title="关于我"
+	description="记录叉烧的生活，写代码，也写日常。"
+	pubDate={new Date('Jul 03 2026')}
+	heroImage={AboutHeroImage}
+>
+	<p>你好，我是叉烧。</p>
+
+	<p>这里是我的个人博客，用来记录一些代码相关的技术笔记，也会写点生活里的随笔。写博客对我来说主要是留一份自己的记录，如果内容对你也有帮助，那就更好了。</p>
+
+	<p>欢迎在文章下面留言交流。</p>
+</Layout>
