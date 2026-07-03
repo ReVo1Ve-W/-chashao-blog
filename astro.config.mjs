@@ -6,8 +6,7 @@ import { defineConfig, fontProviders } from 'astro/config';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://revo1ve-w.github.io',
-	base: '/-chashao-blog',
+	site: 'https://example.com',
 	integrations: [mdx(), sitemap()],
 	fonts: [
 		{
